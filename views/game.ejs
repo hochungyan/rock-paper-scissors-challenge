@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Pick your choice</title>
+  </head>
+  <body id="body">
+    <h1><h1 style="color: blue"><%= name %></h1> Please pick your choice</h1>
+
+    <form action="/results" method="post">
+      <input id="paper" type="submit" value="Paper" name="choice">
+      <input id="Scissors" type="submit" value="Scissors" name="choice">
+      <input id="rock" type="submit" value="Rock" name="choice">
+    </form>
+  </body>
+</html>
